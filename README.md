@@ -1,5 +1,5 @@
 # Today.
-#### Video Demo:  youtube.com/smileforthecamera!
+#### Video Demo:  https://youtu.be/1Ua5IQ3oHQ8
 
 Hello, and welcome to **__Today__**!
 
