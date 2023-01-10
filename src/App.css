@@ -1,38 +1,60 @@
-.App {
-  text-align: center;
+@import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@1,6..96,700&display=swap');
+
+.navbar-brand {
+  font-family: 'Bodoni Modia', serif;
+  font-weight: bold;
+  color: #fffdd6;
+
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+nav, .nav-link {
+  background-color: #171925;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.list {
+  text-align: left;
+  max-width: 750px;
+  margin: auto;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.submit-form {
+  max-width: 300px;
+  margin: auto;
 }
 
-.App-link {
-  color: #61dafb;
+.edit-form {
+  max-width: 300px;
+  margin: auto;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.submit-form, .form-group, label {
+  color: yellow;
+}
+
+#body-text {
+  color:yellow;
+}
+
+h1, html, div {
+  background-color: #292b40;
+  font-family: 'Avenir';
+}
+
+h1, h4, p {
+  color: #fffdd6;
+  opacity: 80%;
+}
+
+input[type="checkbox"] {
+  -webkit-appearance: none;
+  border-radius: 50%;
+  width: 16px;
+  height: 16px;
+  background: #fff;
+  border: 1px solid #000;
+  box-shadow: 0 1px 2px rgba(0,0,0,0.05), inset 0px -15px 10px -12px rgba(0,0,0,0.05);
+}
+
+input[type="checkbox"]:checked {
+  background: grey;
 }
