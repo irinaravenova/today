@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@1,6..96,700&display=swap');
+
+.navbar-brand {
+  font-family: 'Bodoni Modia', serif;
+  font-weight: bold;
+  color: #fffdd6;
+
+}
+
+nav, .nav-link {
+  background-color: #171925;
+}
+
+.list {
+  text-align: left;
+  max-width: 750px;
+  margin: auto;
+}
+
+.submit-form {
+  max-width: 300px;
+  margin: auto;
+}
+
+.edit-form {
+  max-width: 300px;
+  margin: auto;
+}
+
+.submit-form, .form-group, label {
+  color: yellow;
+}
+
+#body-text {
+  color:yellow;
+}
+
+h1, html, div {
+  background-color: #292b40;
+  font-family: 'Avenir';
+}
+
+h1, h4, p {
+  color: #fffdd6;
+  opacity: 80%;
+}
+
+input[type="checkbox"] {
+  -webkit-appearance: none;
+  border-radius: 50%;
+  width: 16px;
+  height: 16px;
+  background: #fff;
+  border: 1px solid #000;
+  box-shadow: 0 1px 2px rgba(0,0,0,0.05), inset 0px -15px 10px -12px rgba(0,0,0,0.05);
+}
+
+input[type="checkbox"]:checked {
+  background: grey;
+}
