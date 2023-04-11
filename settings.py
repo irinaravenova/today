@@ -158,10 +158,11 @@ SOCIALACCOUNT_PROVIDERS = {
     }
 }
 
-AUTHENTICATION_BACKENDS = [
-    'django.contrib.auth.backends.ModelBackend',
-    'allauth.account.auth_backends.AuthenticationBackend',
-]
+REST_FRAMEWORK = {
+    'DEFAULT_PERMISSION_CLASSES': (
+        'rest_framework.permissions.IsAuthenticated',
+    ),
+}
 
 LOGIN_REDIRECT_URL = 'http://localhost:8081/add'
 ACCOUNT_LOGOUT_REDIRECT_URL = 'http://localhost:8081/settings'
